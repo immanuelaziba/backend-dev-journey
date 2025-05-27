@@ -67,28 +67,39 @@ Practiced using Node.js core modules to interact with the file system, resolve f
 
 
 
-## 📅 Day 3: APIs, Async & File System
+## 📅 Day 03 – Async Operations & Public API Fetching
 
-**Focus:**  
-- Fetching API data using native `fetch()`  
-- Reading files via `fs` with 3 approaches  
-- Simulating async behavior in Node.js  
+📁 Folder: `day03-async-basics`
 
-**Key Files:**
-- `fetchData.js`: Uses `async/await` to pull JSON data from a public API
-- `readMethods.js`: Reads a file (`example.txt`) using Callback, Promise, and Async/Await
-- `simulateAsync.js`: Uses `setTimeout` to mimic an async operation
+### ✅ Summary
+Practiced asynchronous programming in Node.js using callbacks, Promises, and async/await. Built simple scripts to read files asynchronously and fetch data from a public API using `node-fetch`.
 
-**Highlights:**  
-✅ Practiced structured async flows  
-✅ Improved confidence in using the `fs` module  
-✅ Explored version-specific Node.js features
+### 🧠 Key Concepts
+- Understanding asynchronous patterns: Callbacks, Promises, async/await
+- Using the `fs` module asynchronously (`fs.readFile` with callbacks and Promises)
+- Fetching external data with `node-fetch`
+- Handling errors in async functions
+
+### ⚙️ Exercises Completed
+1. **File Reading**
+   - Read text files asynchronously using callbacks
+   - Promisified `fs.readFile` to use `.then()` and `async/await`
+2. **Public API Fetch**
+   - Fetched JSON data from a public API endpoint using `node-fetch`
+   - Parsed and logged API response data
+3. **Simulated Async Tasks**
+   - Created delay functions with Promises
+   - Chained async calls for sequential operations
+
+### 🔍 Reflection Snippet
+> “Async/await makes asynchronous code cleaner and easier to read compared to callbacks. Fetching real API data showed how Node.js can interact with external services seamlessly.”
+
 
 
 
 ## 📅 Day 04 – Express.js Middleware, Route Parameters & Query Strings
 
-📁 Folder: `day04-express-middleware-routing`
+📁 Folder: `day04-modular-express`
 
 ### ✅ Summary
 Built an Express server with custom middleware that logs requests and adds timestamps. Practiced route handling, including route parameters and query strings for dynamic behavior.
